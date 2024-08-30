@@ -19,8 +19,8 @@ const Header = () => {
         <Link to="/signup" className="text-white ">Signup</Link>
         <Link to="/cart" className="text-white ">Add to Cart</Link>
         <Link to="/profile" className="text-white ">Profile</Link>
-        <Link to="/account" className="text-white ">Account</Link>
-        <button className="text-white ">Logout</button>
+       
+  
       </nav>
 
       {/* Hamburger Menu & Profile Icon for Mobile */}
@@ -35,7 +35,7 @@ const Header = () => {
 
       {/* Mobile Menu with Slide-in Animation */}
       <div
-        className={`md:hidden bg-blue-600 fixed top-0 left-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${
+        className={`md:hidden bg-blue-600 fixed top-0 left-0 h-full w-64  shadow-lg transform transition-transform duration-300 ease-in-out ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
@@ -51,8 +51,8 @@ const Header = () => {
           <Link to="/login" className="text-white">Login</Link>
           <Link to="/signup" className="text-white">Signup</Link>
           <Link to="/cart" className="text-white">Add to Cart</Link>
-          <Link to="/account" className="text-white">Account</Link>
-          <button className="text-white">Logout</button>
+ 
+         
         </nav>
       </div>
     </header>
